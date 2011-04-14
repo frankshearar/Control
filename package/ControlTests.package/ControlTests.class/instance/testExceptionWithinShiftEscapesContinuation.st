@@ -1,4 +1,4 @@
-testing
+testing - exceptions
 testExceptionWithinShiftEscapesContinuation
 	| fun returnValue |
 	fun := [ Exception signal: [ :k | k value: '2' ] shift ].

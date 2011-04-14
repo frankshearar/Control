@@ -1,4 +1,4 @@
-testing
+testing - exceptions
 testResetDoesntEatExceptions
 	self
 		should: [ [ Exception signal ] reset ]
