@@ -1,0 +1,14 @@
+{
+	"category" : "Control-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MissingResetException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

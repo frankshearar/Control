@@ -1,0 +1,14 @@
+{
+	"category" : "Control-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 3/31/2011 17:39",
+	"instvars" : [
+		 ],
+	"name" : "DelimitedControlException",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

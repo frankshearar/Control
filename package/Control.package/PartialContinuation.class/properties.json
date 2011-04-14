@@ -1,0 +1,14 @@
+{
+	"category" : "Control-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 4/12/2011 18:58",
+	"instvars" : [
+		"values" ],
+	"name" : "PartialContinuation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
