@@ -1,0 +1,1 @@
+(name 'ControlTests-fbs.1' message 'Initial suite of tests. I have no idea how comprehensive the suite should be; this demonstrates basic behaviour and shows the correct handling of exceptions.' id '09685e13-da25-8442-893a-a6c18301af66' date '14 April 2011' time '5:30:48.783 pm' author 'fbs' ancestors () stepChildren ())

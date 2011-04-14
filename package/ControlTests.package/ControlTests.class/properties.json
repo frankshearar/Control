@@ -1,0 +1,14 @@
+{
+	"category" : "ControlTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 3/31/2011 17:34",
+	"instvars" : [
+		 ],
+	"name" : "ControlTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

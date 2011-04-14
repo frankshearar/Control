@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testExceptionWithinShiftEscapesContinuation" : "fbs 4/14/2011 17:24",
+		"testResetDoesNothingOnItsOwn" : "fbs 3/31/2011 17:36",
+		"testResetDoesntEatExceptions" : "fbs 4/14/2011 16:41",
+		"testShiftMakesReentrantContinuation" : "fbs 4/14/2011 17:27",
+		"testShiftReifiesStackAsFunction" : "fbs 4/14/2011 15:20",
+		"testShiftWithNoResetRaisesException" : "fbs 4/14/2011 15:20",
+		"testUnusedShiftThrowsAwayCallStack" : "fbs 3/31/2011 17:54" } }

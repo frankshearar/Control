@@ -1,0 +1,1 @@
+This class exercises the shift/reset control operators.
