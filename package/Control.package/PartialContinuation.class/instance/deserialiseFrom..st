@@ -7,4 +7,6 @@ deserialiseFrom: anObject
 		[context := stream next.
 		1 to: context class instSize do: [ :index | context instVarAt: index put: (stream next) ].
 		1 to: context size do: [ :index | context at: index put: (stream next) ] ].
+	
+	"Return our bottom-most context."
 	^ context
