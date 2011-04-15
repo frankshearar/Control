@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testContinuationsComposeShiftReifiesStackAsFunction" : "fbs 4/15/2011 13:01",
+		"testContinuationsCompose" : "fbs 4/15/2011 16:42",
 		"testExceptionWithinShiftEscapesContinuation" : "fbs 4/14/2011 17:24",
 		"testNestedResetsDoNothing" : "fbs 4/14/2011 17:37",
 		"testNestedShiftResetsNest" : "fbs 4/14/2011 17:51",
