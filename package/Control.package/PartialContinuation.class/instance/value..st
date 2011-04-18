@@ -6,5 +6,10 @@ value: anObject
 	"Then, tell thisContext that its sender was actually the last/top-most context."
 	thisContext swapSender: values first.
 	
-	"Finally, 'return' anObject from the caller context... which thanks to the line above, is actually values first. This effectively sets anObject as the parameter to the reified partial continuation."
+	"Finally, 'return' anObject from the caller context... which thanks to the line
+	above, is actually values first. This effectively sets anObject as the parameter
+	to the reified partial continuation, because instead of 'returning' to our caller
+	we 'return' to the next part of the computation - our
+	partial-continuation-as-function."
+
 	^ anObject.
