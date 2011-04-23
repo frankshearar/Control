@@ -1,0 +1,14 @@
+{
+	"category" : "Control-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ul 4/23/2011 03:29",
+	"instvars" : [
+		"topContext" ],
+	"name" : "PartialContinuationNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

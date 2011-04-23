@@ -1,12 +1,11 @@
 private
 deserialiseFrom: anObject
-	| stream context |
+
+	| stream currentContext bottomContext |
 	stream := anObject readStream.
 	"We don't need to explicitly connect the contexts, because one of the instvars is sender."
-	[stream atEnd] whileFalse:
-		[context := stream next.
-		1 to: context class instSize do: [ :index | context instVarAt: index put: (stream next) ].
-		1 to: context size do: [ :index | context at: index put: (stream next) ] ].
-	
-	"Return our bottom-most context."
-	^ context
+	[ (currentContext := stream next) == nil ] whileFalse: [
+		bottomContext := currentContext.
+		1 to: currentContext class instSize do: [ :index | currentContext instVarAt: index put: stream next ].
+		1 to: currentContext size do: [ :index | currentContext at: index put: stream next ] ].
+	^bottomContext
