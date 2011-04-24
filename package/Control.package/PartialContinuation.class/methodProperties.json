@@ -2,10 +2,8 @@
 	"class" : {
 		"from:downTo:" : "fbs 4/12/2011 19:11" },
 	"instance" : {
-		"deserialiseFrom:" : "ul 4/23/2011 03:24",
-		"from:downTo:" : "fbs 4/13/2011 07:32",
+		"from:downTo:" : "ul 4/23/2011 23:06",
 		"numArgs" : "fbs 4/14/2011 15:41",
-		"serialiseFrom:to:" : "ul 4/23/2011 03:26",
-		"stack" : "fbs 4/14/2011 07:35",
+		"stack" : "ul 4/23/2011 23:07",
 		"value" : "fbs 4/12/2011 18:59",
-		"value:" : "fbs 4/18/2011 22:03" } }
+		"value:" : "ul 4/23/2011 23:19" } }

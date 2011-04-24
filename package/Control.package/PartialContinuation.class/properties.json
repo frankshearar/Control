@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "fbs 4/12/2011 18:58",
 	"instvars" : [
-		"values" ],
+		"context" ],
 	"name" : "PartialContinuation",
 	"pools" : [
 		 ],
