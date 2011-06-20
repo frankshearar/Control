@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"testContinuationsCompose" : "fbs 4/15/2011 16:42",
+		"testEmptyStackShiftResetReturnsValue" : "fbs 6/20/2011 20:56",
 		"testExceptionWithinShiftEscapesContinuation" : "fbs 4/14/2011 17:24",
 		"testNestedResetsDoNothing" : "fbs 4/14/2011 17:37",
 		"testNestedShiftResetsNest" : "fbs 4/14/2011 17:51",
@@ -11,6 +12,7 @@
 		"testResetDoesntEatExceptions" : "fbs 4/14/2011 16:41",
 		"testShiftCutsToNearestReset" : "fbs 4/14/2011 17:51",
 		"testShiftMakesReentrantContinuation" : "fbs 4/14/2011 17:27",
+		"testShiftPreservesResetMarker" : "fbs 6/20/2011 21:01",
 		"testShiftReifiesStackAsFunction" : "fbs 4/14/2011 17:57",
 		"testShiftWithCaughtException" : "fbs 4/15/2011 13:51",
 		"testShiftWithExceptionAndInnerEnsureRaisesExceptionAndRunsEnsure" : "fbs 4/18/2011 22:12",
