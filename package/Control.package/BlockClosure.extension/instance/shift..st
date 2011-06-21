@@ -6,15 +6,14 @@ shift: aUnaryBlock
 	currentCtxt := thisContext.
 	resetCtxt := DelimitedControlException signal.
 	resetCtxt ifNil: [^ MissingResetException signal].
-	
 	"resetCtxt is not where we want to cut. Because we use #on:do: to mark the stack, rather than marking the reset's context directly, it's the marked context that we want to leave on the stack. We need to cut to the context whose sender is resetCtxt."
 	cc := currentCtxt.
-	[cc sender sender == resetCtxt] whileFalse: [cc := cc sender].
+	[cc sender sender method == resetCtxt method] whileFalse: [cc := cc sender].
 	
-	"Store the stack from _below_ the shift to just _above_ the reset marker."
-	fun := PartialContinuation from: currentCtxt sender downTo: cc sender.
+	"Store the stack from _below_ the shift to just _below_ the reset marker."
+	fun := PartialContinuation from: currentCtxt sender downTo: resetCtxt sender.
 
-	"Throw away the stack down to the reset marker."
+	"Throw away the stack down to just _above_ the reset marker."
 	currentCtxt swapSender: cc sender.
 
 	^ aUnaryBlock value: fun.
