@@ -1,7 +1,10 @@
 {
 	"class" : {
-		"from:downTo:" : "fbs 4/12/2011 19:11" },
+		"from:downTo:" : "fbs 4/12/2011 19:11",
+		"return:" : "fbs 6/23/2011 07:26" },
 	"instance" : {
+		">>=" : "fbs 6/24/2011 07:26",
+		"compose:" : "fbs 6/21/2011 22:10",
 		"debugString" : "fbs 6/20/2011 17:54",
 		"from:downTo:" : "ul 4/23/2011 23:06",
 		"numArgs" : "fbs 4/14/2011 15:41",
