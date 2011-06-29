@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testBlocksCanComposeWithContinuations" : "fbs 6/22/2011 17:36",
+		"testContinuationsCanComposeWithBlocks" : "fbs 6/22/2011 17:34",
+		"testContinuationsCanComposeWithSelectors" : "fbs 6/22/2011 17:34",
 		"testContinuationsCompose" : "fbs 4/15/2011 16:42",
-		"testDeepShiftPreservesResetMarker" : "fbs 6/21/2011 17:58",
 		"testEmptyStackShiftResetReturnsValue" : "fbs 6/20/2011 20:56",
 		"testExceptionWithinShiftEscapesContinuation" : "fbs 4/14/2011 17:24",
 		"testNestedResetsDoNothing" : "fbs 4/14/2011 17:37",
@@ -11,9 +13,10 @@
 		"testRepeatedInvocationsShouldAlwaysRunEnsures" : "fbs 4/18/2011 22:28",
 		"testResetDoesNothingOnItsOwn" : "fbs 3/31/2011 17:36",
 		"testResetDoesntEatExceptions" : "fbs 4/14/2011 16:41",
+		"testReturnInjectsObjectIntoContinuationMonad" : "fbs 6/22/2011 22:42",
 		"testShiftCutsToNearestReset" : "fbs 4/14/2011 17:51",
 		"testShiftMakesReentrantContinuation" : "fbs 4/14/2011 17:27",
-		"testShiftPreservesResetMarker" : "fbs 6/21/2011 17:41",
+		"testShiftPreservesResetMarker" : "fbs 6/28/2011 07:49",
 		"testShiftReifiesStackAsFunction" : "fbs 4/14/2011 17:57",
 		"testShiftWithCaughtException" : "fbs 4/15/2011 13:51",
 		"testShiftWithExceptionAndInnerEnsureRaisesExceptionAndRunsEnsure" : "fbs 4/18/2011 22:12",

@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBlocksCanCompose" : "fbs 6/22/2011 07:40",
+		"testBlocksCanComposeWithSelectors" : "fbs 6/22/2011 17:37",
+		"testCompositionLeftAssociates" : "fbs 6/22/2011 07:40" } }

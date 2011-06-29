@@ -1,0 +1,14 @@
+{
+	"category" : "ControlTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BlockTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
