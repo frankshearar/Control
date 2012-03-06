@@ -1,6 +1,6 @@
 versions
 version11dev: spec
-	<version: '1.1dev' imports: #('1.0-baseline' )>
+	<version: '1.1.dev' imports: #('1.0-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #'development'.
