@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfControl",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfControl",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

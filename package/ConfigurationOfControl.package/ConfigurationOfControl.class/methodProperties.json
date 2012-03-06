@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"DevelopmentSupport" : "fbs 3/6/2012 10:46",
+		"baseConfigurationClassIfAbsent:" : "fbs 3/6/2012 10:46",
+		"bootstrapPackage:from:" : "fbs 3/6/2012 10:46",
+		"copyToGemSource" : "fbs 3/6/2012 10:46",
+		"copyToSqueakSource" : "fbs 3/6/2012 10:46",
+		"ensureMetacello" : "fbs 3/6/2012 10:46",
+		"ensureMetacelloBaseConfiguration" : "fbs 3/6/2012 10:46",
+		"isMetacelloConfig" : "fbs 3/6/2012 10:46",
+		"lastMetacelloVersionLoad" : "fbs 3/6/2012 10:46",
+		"load" : "fbs 3/6/2012 10:46",
+		"loadBleedingEdge" : "fbs 3/6/2012 10:46",
+		"loadDevelopment" : "fbs 3/6/2012 10:46",
+		"loadLatestVersion" : "fbs 3/6/2012 10:46",
+		"metacelloVersion:loads:" : "fbs 3/6/2012 10:46",
+		"project" : "fbs 3/6/2012 10:46",
+		"unloadMetacello" : "fbs 3/6/2012 10:46",
+		"updateToLatestPackageVersions:" : "fbs 3/6/2012 10:46",
+		"validate" : "fbs 3/6/2012 10:46" },
+	"instance" : {
+		"baseline10:" : "fbs 3/6/2012 10:47",
+		"development:" : "fbs 3/6/2012 10:49",
+		"project" : "fbs 3/6/2012 10:46",
+		"stable:" : "fbs 3/6/2012 10:48",
+		"version10:" : "fbs 3/6/2012 10:48",
+		"version11dev:" : "fbs 3/6/2012 10:50" } }
