@@ -8,7 +8,7 @@ version11dev: spec
 		spec author: 'nice'.
 		spec timestamp: '06/03/2012 10:49'.
 		spec
-			package: 'Control' with: 'Control-fbs.11';
-			package: 'ControlTests' with: 'ControlTests-fbs.8'. ].
+			package: 'Control' with: 'Control-fbs.12';
+			package: 'ControlTests' with: 'ControlTests-fbs.9'. ].
 		spec for: #squeak do: [ ].
 		spec for: #pharo do: [ ].
