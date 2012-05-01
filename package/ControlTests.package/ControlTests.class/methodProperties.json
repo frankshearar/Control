@@ -13,7 +13,7 @@
 		"testRepeatedInvocationsShouldAlwaysRunEnsures" : "fbs 4/18/2011 22:28",
 		"testResetDoesNothingOnItsOwn" : "fbs 3/31/2011 17:36",
 		"testResetDoesntEatExceptions" : "fbs 4/14/2011 16:41",
-		"testReturnInjectsObjectIntoContinuationMonad" : "fbs 6/22/2011 22:42",
+		"testReturnInjectsObjectIntoContinuationMonad" : "fbs 4/20/2012 09:17",
 		"testShiftCutsToNearestReset" : "fbs 4/14/2011 17:51",
 		"testShiftMakesReentrantContinuation" : "fbs 4/14/2011 17:27",
 		"testShiftPreservesResetMarker" : "fbs 6/28/2011 07:49",
