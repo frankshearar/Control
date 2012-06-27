@@ -1,13 +1,13 @@
 {
-	"category" : "Control-Exceptions",
+	"category" : "Control-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "fbs 6/27/2012 20:13",
+	"commentStamp" : "fbs 6/27/2012 09:47",
 	"instvars" : [
-		 ],
-	"name" : "DelimitedControlException",
+		"dynVar" ],
+	"name" : "DelimitedDynamicVariableRef",
 	"pools" : [
 		 ],
 	"super" : "Notification",

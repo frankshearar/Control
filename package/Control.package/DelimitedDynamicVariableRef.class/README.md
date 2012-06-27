@@ -1,0 +1,1 @@
+A Notification used to find the current value of a delimited dynamic variable. It contains a reference to the variable whose value it wishes to find. See DelimitedDynamicVariable >> #handle: for details.
