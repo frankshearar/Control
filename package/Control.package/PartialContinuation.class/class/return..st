@@ -1,3 +1,3 @@
 monad
 return: aBlocklikeObject
-	^ [[:k | [:x | aBlocklikeObject value: x] ] shift ] reset.
+	^ [[:k | k value: [:x | aBlocklikeObject value: x] ] shift ] reset.
