@@ -1,0 +1,14 @@
+{
+	"category" : "ControlTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DelimDynVarTestNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }
