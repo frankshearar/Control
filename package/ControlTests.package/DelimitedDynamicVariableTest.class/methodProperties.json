@@ -5,6 +5,7 @@
 		"testDelimitedContinuationCanCapturePartOfDynamicEnvironment" : "fbs 6/26/2012 22:39",
 		"testDelimitedContinuationCanIgnorePartOfDynamicEnvironment" : "fbs 6/26/2012 22:39",
 		"testDletsCanNest" : "fbs 6/27/2012 20:19",
+		"testDsetMutatesValueAtGivenScope" : "fbs 7/14/2012 22:19",
 		"testDynamicLookupUsesStackBindings" : "fbs 6/26/2012 19:34",
 		"testDynamicVariablesCanBeSet" : "fbs 6/26/2012 19:34",
 		"testDynamicVariablesDontInterfere" : "fbs 6/27/2012 09:30",
