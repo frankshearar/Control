@@ -5,10 +5,10 @@ version11dev: spec
 	spec for: #'common' do: [
 		spec blessing: #'development'.
 		spec description: 'stable version'.
-		spec author: 'nice'.
-		spec timestamp: '06/03/2012 10:49'.
+		spec author: 'fbs'.
+		spec timestamp: '07/14/2012 21:37'.
 		spec
-			package: 'Control' with: 'Control-fbs.14';
+			package: 'Control' with: 'Control-fbs.15';
 			package: 'ControlTests' with: 'ControlTests-fbs.10'. ].
 		spec for: #squeak do: [ ].
 		spec for: #pharo do: [ ].
