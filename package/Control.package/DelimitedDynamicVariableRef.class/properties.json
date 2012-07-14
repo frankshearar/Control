@@ -1,12 +1,13 @@
 {
-	"category" : "Control-Core",
+	"category" : "Control-Support",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Unset" ],
 	"commentStamp" : "fbs 6/27/2012 09:47",
 	"instvars" : [
-		"dynVar" ],
+		"dynVar",
+		"value" ],
 	"name" : "DelimitedDynamicVariableRef",
 	"pools" : [
 		 ],

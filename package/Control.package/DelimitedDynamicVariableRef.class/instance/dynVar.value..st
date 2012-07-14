@@ -1,5 +1,5 @@
 initialize-release
-dynVar: aDelimitedDynamicVariable
+dynVar: aDelimitedDynamicVariable value: anObject
 	self initialize.
 	dynVar := aDelimitedDynamicVariable.
-	value := Unset.
+	value := anObject.

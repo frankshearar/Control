@@ -1,6 +1,6 @@
 controlling
 dset: anObject
-	^ (DelimitedDynamicVariableRef dynVar: self) signal
+	^ (DelimitedDynamicVariableRef dynVar: self value: anObject) signal
 		ifNil: [ | oldValue |
-			oldValue := default. default := anObject. oldValue ]
-		ifNotNil: [ self replaceDynamicValue: anObject ]
+			oldValue := default.
+			default := anObject. oldValue ].

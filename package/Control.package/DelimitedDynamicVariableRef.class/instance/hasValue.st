@@ -1,0 +1,3 @@
+testing
+hasValue
+	^ value ~= Unset.
