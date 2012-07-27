@@ -1,0 +1,14 @@
+{
+	"category" : "Control-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variables" ],
+	"name" : "DelimitedDynamicVariableSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
