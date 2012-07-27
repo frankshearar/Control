@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testDletAllowsSettingOfManyVariables" : "fbs 7/27/2012 09:28",
+		"testDletCanNest" : "fbs 7/27/2012 09:29",
+		"testDletSetsVariablesOnlyWithinBlockScope" : "fbs 7/27/2012 09:28",
+		"testDsetCanAffectDefaultValue" : "fbs 7/27/2012 09:29",
+		"testDsetMutatesValueAtGivenScope" : "fbs 7/27/2012 09:34",
+		"testDsetOnlyAffectsOneVariable" : "fbs 7/27/2012 09:30" } }
