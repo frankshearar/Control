@@ -14,5 +14,5 @@ testDsetMutatesValueAtGivenScope
 	self assert: 5 equals: v1.
 	self assert: 2 equals: v2.
 	self assert: 6 equals: v3.
-	self assert: 5 equals: v1.
+	self assert: 5 equals: v4.
 	self assert: #uninitialized equals: p dref.
