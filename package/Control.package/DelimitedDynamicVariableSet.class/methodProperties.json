@@ -1,7 +1,10 @@
 {
 	"class" : {
+		"extending:with:" : "fbs 8/7/2012 09:29",
 		"with:with:" : "fbs 7/27/2012 09:22" },
 	"instance" : {
+		"," : "fbs 8/7/2012 09:27",
 		"dlet:in:" : "fbs 8/2/2012 18:41",
 		"handles:" : "fbs 7/27/2012 09:30",
+		"variables" : "fbs 8/7/2012 09:28",
 		"variables:" : "fbs 7/27/2012 09:22" } }
