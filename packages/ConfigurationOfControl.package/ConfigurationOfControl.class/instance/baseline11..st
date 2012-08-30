@@ -5,7 +5,7 @@ baseline11: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec repository: 'http://www.squeaksource.com/Control'.
-		spec 
+		spec
 			package: 'Control';
 			package: 'ControlTests' with: [
 				spec requires: #('Control' )].
