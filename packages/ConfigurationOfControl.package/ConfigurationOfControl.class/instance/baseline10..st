@@ -14,4 +14,7 @@ baseline10: spec
 			group: 'Core' with: #('Control');
 			group: 'Tests' with: #('ControlTests') ].
 	spec for: #'squeak' do: [ ].
-	spec for: #'pharo' do: [ ].
+	spec for: #'pharo' do: [
+		spec
+			package: 'Control' with: [
+				spec requires: #('ControlPharo')]].

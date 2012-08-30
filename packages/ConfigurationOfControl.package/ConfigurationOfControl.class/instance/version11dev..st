@@ -11,4 +11,6 @@ version11dev: spec
 			package: 'Control' with: 'Control-fbs.19';
 			package: 'ControlTests' with: 'ControlTests-fbs.15'. ].
 		spec for: #squeak do: [ ].
-		spec for: #pharo do: [ ].
+		spec for: #pharo do: [
+			spec
+				package: 'ControlPharo' with: 'ControlPharo-fbs.1' ].
