@@ -6,7 +6,7 @@ version11dev: spec
 		spec blessing: #'development'.
 		spec description: 'stable version'.
 		spec author: 'fbs'.
-		spec timestamp: '07/14/2012 21:37'.
+		spec timestamp: '08/30/2012 08:00'.
 		spec
 			package: 'Control' with: 'Control-fbs.19';
 			package: 'ControlTests' with: 'ControlTests-fbs.15'. ].
