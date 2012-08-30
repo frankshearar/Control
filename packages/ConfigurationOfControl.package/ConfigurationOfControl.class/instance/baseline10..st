@@ -16,5 +16,4 @@ baseline10: spec
 	spec for: #'squeak' do: [ ].
 	spec for: #'pharo' do: [
 		spec
-			package: 'Control' with: [
-				spec requires: #('ControlPharo')]].
+			package: 'ControlPharo'].
