@@ -3,7 +3,7 @@ ensureMetacello
 	"Bootstrap Gofer (if necessary), load latest mcz file for ConfigurationOfMetacello (using old 
 	 Gofer API), then load the latest version of Metacello itself."
 	| meta |
-	meta := 'ConfigurationOfMetacello-dkh.674'.
+	meta := 'ConfigurationOfMetacello-EstebanLorenzano.718'.
 	Smalltalk at: #MetacelloProject ifAbsent: [
 		"list of repositories to try, in case primary repository is not accessible"
 		self bootstrapPackage: meta from: 'http://www.squeaksource.com/MetacelloRepository'.
