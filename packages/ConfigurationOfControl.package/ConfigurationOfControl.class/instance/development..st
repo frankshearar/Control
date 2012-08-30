@@ -2,4 +2,6 @@ symbolic versions
 development: spec
 	<symbolicVersion: #'development'>
 
-	spec for: #'common' version: '1.1.dev'
+	spec for: #'common' version: '1.1.dev'.
+	spec for: #'squeak4.4.x' version: '1.1.dev'.
+	spec for: #'pharo1.4.x' version: '1.1.dev'.
