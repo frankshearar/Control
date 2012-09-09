@@ -5,3 +5,7 @@ In particular, Control implements the `shift` control operator. Given a mark on 
 The problems in the interaction between dynamic variables and delimited continuations are [best described elsewhere](http://okmij.org/ftp/Computation/dynamic-binding.html). Control's _delimited_ dynamic variables play nicely with control operators.
 
 Smalltalk's resumable exceptions [form the basis](http://www.lshift.net/blog/2012/06/27/resumable-exceptions-can-macro-express-delimited-dynamic-variables) for the library.
+
+Current status
+
+[![Build Status](https://secure.travis-ci.org/frankshearar/Control.png?branch=master)](http://travis-ci.org/frankshearar/Control)
