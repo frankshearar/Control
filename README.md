@@ -7,8 +7,8 @@ The problems in the interaction between dynamic variables and delimited continua
 Smalltalk's resumable exceptions [form the basis](http://www.lshift.net/blog/2012/06/27/resumable-exceptions-can-macro-express-delimited-dynamic-variables) for the library.
 
 #Documentation
-* [Delimited dynamic variables](docs/delimited-dynamic-variables.md)
-* [Dynamic variables and delimited continuations](docs/dynamic-variables-and-delimited-continuations.md)
+* [Delimited dynamic variables](Control/tree/master/docs/delimited-dynamic-variables.md)
+* [Dynamic variables and delimited continuations](Control/tree/master/docs/dynamic-variables-and-delimited-continuations.md)
 
 #Current status
 
