@@ -1,5 +1,6 @@
 The basic API is straightforward:
 
+```smalltalk
     | p |
     p := DelimitedDynamicVariable default: 0.
     p dref. "=> 0"
@@ -10,3 +11,4 @@ The basic API is straightforward:
         p dlet: 2 in: [
             p dref "=> 2"]].
     p dref. "=> 0"
+```
