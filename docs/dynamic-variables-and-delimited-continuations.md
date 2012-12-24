@@ -28,7 +28,7 @@ p dlet: 1 in: [
 
 One capturing such a change should behave like this:
 
-```
+```smalltalk
 "A shift capturing a change in a dynamic binding."
 | p f v1 v2 v3 v4 |
 p := DelimitedDynamicVariable default: #uninitialized.
