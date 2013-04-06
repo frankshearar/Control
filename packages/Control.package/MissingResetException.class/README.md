@@ -1,0 +1,1 @@
+In order for the shift operator to know how much of the stack to cut, the stack must be marked with a reset marker. If you have forgotten to place such a marker on the stack, I serve to remind you of your lapse in discipline.
