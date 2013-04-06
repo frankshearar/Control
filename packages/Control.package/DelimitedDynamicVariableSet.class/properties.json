@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "fbs 3/1/2013 17:34",
 	"instvars" : [
 		"variables" ],
 	"name" : "DelimitedDynamicVariableSet",
