@@ -5,7 +5,7 @@ env:
    - ST=Squeak-4.3
    - ST=Squeak-4.4
    - ST=Squeak-4.5
-   - ST=Squeak-4.6
+   - ST=Squeak-Trunk
 
 install:
    - export PROJECT_HOME="$(pwd)"
