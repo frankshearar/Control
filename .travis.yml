@@ -9,4 +9,6 @@ smalltalk:
 
 env:
   global:
-    - BASELINE="Control"
+    - TESTS="ControlTests"
+
+script: $SMALLTALK_CI_HOME/run.sh --mc-config "Control"
