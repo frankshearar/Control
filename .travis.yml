@@ -1,33 +1,14 @@
-language: erlang
+language: smalltalk
+sudo: false
+smalltalk:
+  - Squeak-trunk
+  - Squeak-5.0
+  - Squeak-4.6
+  - Squeak-4.5
+  - Pharo-3.0
 
 env:
-   - ST=Pharo-1.4
-   - ST=Squeak-4.3
-   - ST=Squeak-4.4
-   - ST=Squeak-4.5
-   - ST=Squeak-Trunk
+  global:
+    - TESTS="ControlTests"
 
-install:
-   - export PROJECT_HOME="$(pwd)"
-   - cd $HOME
-   - wget -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
-   - unzip -q builderCI.zip
-   - cd dalehenrich-builderCI*
-   - source build_env_vars
-   - ln -s $PROJECT_HOME $GIT_PATH
-   - ./build_image.sh
-
-script:
-
-   - ./build.sh -i $ST -s latAmMirror.st -m -f "$PROJECT_HOME/tests/travisCI.st" -o travisCI
-   - cd "${BUILD_PATH}/travisCI/"
-   - if ( test -e PharoDebug.log ); then cat TravisTranscript.txt; fi
-   - if ( test -e PharoDebug.log ); then cat PharoDebug.log; fi
-   - if ( test -e PharoDebug.log ); then exit 1; fi
-   - if ( test -e SqueakDebug.log ); then cat TravisTranscript.txt; fi
-   - if ( test -e SqueakDebug.log ); then cat SqueakDebug.log; fi
-   - if ( test -e SqueakDebug.log ); then exit 1; fi
-   - if ( test -e TravisCISuccess.txt ); then cat TravisCISuccess.txt; fi
-   - if ( test -e TravisCIFailure.txt ); then cat TravisTranscript.txt; fi
-   - if ( test -e TravisCIFailure.txt ); then cat TravisCIFailure.txt; fi
-   - if ( test -e TravisCIFailure.txt ); then exit 1; fi
+script: $SMALLTALK_CI_HOME/run.sh --mc-config "Control"
